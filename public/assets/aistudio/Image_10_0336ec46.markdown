@@ -1,0 +1,224 @@
+---
+name: Lumière & Nectar
+colors:
+  surface: '#fdf9f3'
+  surface-dim: '#dddad4'
+  surface-bright: '#fdf9f3'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f7f3ed'
+  surface-container: '#f1ede7'
+  surface-container-high: '#ebe8e2'
+  surface-container-highest: '#e6e2dc'
+  on-surface: '#1c1c18'
+  on-surface-variant: '#4e4444'
+  inverse-surface: '#31302d'
+  inverse-on-surface: '#f4f0ea'
+  outline: '#807474'
+  outline-variant: '#d2c3c3'
+  surface-tint: '#6b5b5a'
+  primary: '#110808'
+  on-primary: '#ffffff'
+  primary-container: '#2a1e1e'
+  on-primary-container: '#968484'
+  inverse-primary: '#d7c2c1'
+  secondary: '#715954'
+  on-secondary: '#ffffff'
+  secondary-container: '#fcdbd4'
+  on-secondary-container: '#775f59'
+  tertiary: '#0f0800'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#2d1e00'
+  on-tertiary-container: '#a5833f'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#f3dddd'
+  primary-fixed-dim: '#d7c2c1'
+  on-primary-fixed: '#241919'
+  on-primary-fixed-variant: '#524343'
+  secondary-fixed: '#fcdbd4'
+  secondary-fixed-dim: '#dec0b9'
+  on-secondary-fixed: '#281713'
+  on-secondary-fixed-variant: '#57423d'
+  tertiary-fixed: '#ffdea5'
+  tertiary-fixed-dim: '#e9c176'
+  on-tertiary-fixed: '#261900'
+  on-tertiary-fixed-variant: '#5d4201'
+  background: '#fdf9f3'
+  on-background: '#1c1c18'
+  surface-variant: '#e6e2dc'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 68px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '400'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '500'
+    lineHeight: 50px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: 0.01em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 30px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.015em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.08em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.1em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+This design system captures an intimate, high-editorial cosmetic experience—bridging the cinematic glamour of legacy vanity dressing rooms with modern, warm self-expression. The interface communicates sensory luxury, tactile indulgence, and quiet confidence. Designed specifically for cross-cultural resonance, it provides effortless visual balance across both Latin LTR and Urdu RTL scripts.
+
+The aesthetic fuses **Tactile Luxury Minimalism** with **Soft Glassmorphism**:
+- Velvety, radiant surfaces that mimic skin-finish textures (dewy, satin, and soft matte).
+- Champagne metallic reflections used with editorial restraint for accents and interactive micro-states.
+- Generous, serene negative space that elevates cosmetic products like museum artifacts.
+- Soft-focus background blooms and translucent panes that emulate filtered light through vanity mirrors.
+
+## Colors
+The palette evokes powdered pigments, whipped crèmes, warm flesh tones, and brushed vintage metalwork.
+
+- **Primary (`#2A1E1E` — Rose Noir / Deep Espresso):** Replaces harsh standard blacks with an ultra-deep, romantic espresso-plum tone. Used for primary typography, assertive callouts, high-impact buttons, and refined brand linework.
+- **Secondary (`#F5D5CE` — Petal Blush):** A soft, powdered rose. Used for primary container fills, badges, active pill states, and delicate highlight surfaces. Paired with `#FCEEE9` for ambient background glow.
+- **Tertiary (`#C5A059` — Brushed Champagne Gold):** A desaturated, warm metallic accent. Reserved for micro-accents, rating stars, luxury certification seals, interactive hover glows, and hairline focus borders.
+- **Neutral (`#FAF6F0` — Warm Nude Crème):** The luminous base canvas, supported by `#FDFBF7` (porcelain surface) and `#3E2B2B` (muted espresso for secondary typography and disabled states).
+
+## Typography
+The typographic architecture pairs high-fashion editorial gravitas with effortless digital clarity.
+
+- **Headlines (Playfair Display):** Conveys dramatic elegance, reminiscent of fragrance and high-end beauty periodicals. Utilizes italic accents sparingly for emotive vocabulary (e.g., *Radiance*, *Elixir*).
+- **Body & Controls (Plus Jakarta Sans):** Delivers clean legibility, generous apertures, and contemporary warmth that contrasts gently against the ornate display serif.
+
+### Urdu / RTL Support Rules
+- When rendering Urdu (e.g., Noto Nastaliq Urdu or system-level Arabic/Urdu scripts), increase line-height by a minimum factor of 1.4× over Latin equivalents to preserve ascending and descending flourishes without clipping.
+- Do not apply tracking or letter-spacing greater than `0em` to cursive Arabic and Urdu typography, as kerning separation breaks orthographic letter connectors.
+- Maintain visual alignment by matching baseline optical weights rather than mechanical point sizes.
+
+## Layout & Spacing
+The layout adheres to a classical 12-column fluid grid on desktop (max container width 1320px) transitioning to a 6-column grid on tablet and a 4-column grid on mobile screens. 
+
+- **Breathing Room:** Outer margins remain wide and expansive, emulating art catalog margins.
+- **Rhythm:** Spacing follows an 8pt base unit with occasional 4pt fractional nudges for precise pill badge vertical centering.
+- **Bidirectional Reflow (LTR/RTL):** Layouts must utilize CSS logical properties (`margin-inline-start`, `padding-inline-end`, `inset-inline`) throughout. Directional indicators (e.g., chevron disclosures) automatically mirror, while non-directional media icons remain fixed.
+
+## Elevation & Depth
+Depth is created through gentle, diffusion-based layering rather than synthetic drop shadows:
+
+- **Silk Shadows:** Box-shadows feature wide dispersion radii, extremely low opacity, and are tinted with warm Rose Noir (`rgba(42, 30, 30, 0.05)` to `rgba(42, 30, 30, 0.12)`) instead of neutral gray.
+- **Glassmorphic Compacts:** Surfaces mimicking translucent cosmetic jars and compact mirrors use frosted fills (`rgba(253, 251, 247, 0.72)`), paired with a `16px` to `24px` backdrop blur and an ultra-fine border (`1px solid rgba(197, 160, 89, 0.22)`).
+- **Surface Tiers:**
+  - *Tier 0 (Canvas):* Warm Nude Crème (`#FAF6F0`).
+  - *Tier 1 (Cards & Product Wells):* Porcelain White (`#FDFBF7`) with a 0.5px hairline outline (`#F5D5CE`).
+  - *Tier 2 (Modals, Overlays & Drawers):* Frosted translucent veil with layered warm ambient diffusion (`0 20px 48px -12px rgba(42, 30, 30, 0.08)`).
+
+## Shapes
+The shape hierarchy emphasizes voluptuous, organic geometry derived from cosmetic compacts, lipsticks, and droplets:
+
+- **Full Pill (`roundedness: 3`):** Applied to buttons, category pills, filter badges, and search bars to achieve an ultra-smooth, skin-friendly silhouette.
+- **Micro-Containers & Product Cards:** Use soft squircle geometry (`rounded-xl` / 24px–32px radii) to frame cosmetics with luxurious gentleness.
+- **Interactive Toggles & Checkboxes:** Feature circular or rounded continuous curvature without harsh right angles.
+
+## Components
+
+### Buttons
+- **Primary:** Deep Rose Noir (`#2A1E1E`) solid fill with Warm Nude (`#FAF6F0`) uppercase tracked typography (`label-md`). Fully pill-shaped with silky hover compression and a faint champagne glow (`0 0 16px rgba(197, 160, 89, 0.28)`).
+- **Secondary:** Transparent glass fill, hairline champagne border (`#C5A059`), and Rose Noir text.
+- **Tertiary (Ghost):** Clean text with an animated champagne underline that sweeps from reading-origin (left in LTR, right in RTL).
+
+### Chips & Filter Tags
+- Delicate pill structures with `padding: 0.5rem 1.25rem`.
+- Inactive state: Cream background (`#FDFBF7`) with a muted blush border (`#F5D5CE`).
+- Active state: Subtle Petal Blush tint (`#F5D5CE`) with Rose Noir text and an interior micro-dot or subtle gold border ring.
+
+### Input Fields & Selects
+- Understated floating form elements with Warm Nude Crème backgrounds (`#FDFBF7`).
+- Resting border: 1px subtle blush border (`#F5D5CE`).
+- Focused state: 1px Brushed Champagne Gold (`#C5A059`) with an ambient gold focus diffusion.
+- Error state: Muted terracotta red (`#B85C50`) with accompanying descriptive text.
+
+### Product & Editorial Cards
+- Framed in soft porcelain panels (`rounded-xl`), bordered by a hairline tint (`rgba(42, 30, 30, 0.04)`).
+- Floating media container showcasing makeup swatches or bottles with generous inset padding.
+- Integrated swatch selector pills beneath the image to toggle shade variations dynamically.
+
+### Checkboxes & Radios
+- Radios are circular with a dual-ring target: Champagne Gold outline with a centered Rose Noir inner bead.
+- Checkboxes adopt an organic rounded-sm aesthetic with smooth fade transitions upon selection.
+
+### Beauty-Specific Elements
+- **Shade Swatches:** 28px circular buttons featuring a 2px outer gap and a champagne focus rim to preview finishes (matte, dewy, shimmer).
+- **Bilingual Switcher:** A minimalist pill toggle allowing instant switching between English and Urdu with smooth layout flipping across the horizontal axis.
